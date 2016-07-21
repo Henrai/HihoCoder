@@ -1,0 +1,17 @@
+24points.cpp:3:7: error: expected nested-name-specifier before ‘namesapce’
+ using namesapce std;
+       ^
+24points.cpp:3:7: error: ‘namesapce’ has not been declared
+24points.cpp:3:17: error: expected ‘;’ before ‘std’
+ using namesapce std;
+                 ^
+24points.cpp:3:17: error: ‘std’ does not name a type
+24points.cpp: In function ‘int main()’:
+24points.cpp:42:2: error: ‘cout’ was not declared in this scope
+  cout<<"H";
+  ^
+24points.cpp:42:2: note: suggested alternative:
+In file included from 24points.cpp:1:0:
+/usr/include/c++/4.8/iostream:61:18: note:   ‘std::cout’
+   extern ostream cout;  /// Linked to standard output
+                  ^
